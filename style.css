@@ -69,7 +69,7 @@ a{
 /*  */
 
 .first-section{
-    background: url(/background.jpg);
+    background: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
