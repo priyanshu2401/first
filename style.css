@@ -6,7 +6,6 @@
 }
 /*  */
 /* navbar */
-/*  */
 
 .navbar{
     display: flex;
@@ -110,6 +109,7 @@ a{
 }
 .second-part img{
     width: 60%;
+    border-radius: 5%
 }
 .btn {
     -webkit-border-radius: 60;
@@ -139,6 +139,7 @@ a{
     background-color: rgb(228, 213, 209);
     height: 100vh;
     width: 100%;
+    
 }
 .middle-container {
     display: flex;
@@ -194,30 +195,49 @@ a{
 /* bottom-container */
 /*  */
 
-.bottom-container {
+.third-section{
     height: 100vh;
-    background-color: #252422; 
+    width: 100%;
+    /* background-color: red; */
+    background-color: #252422;
+
+}
+.bottom-container {
+    
+    /* background-color: red; */
     text-transform: uppercase;
     list-style: none;
     padding-top: 5rem;
     padding-bottom: 5rem; 
-    width: 100%;
+    /* max-width: 80%; */
+    margin: 0 auto;
+    /* width: 100%; */
+    
+ 
   }
   .skill {
     background-color: #333;
     margin: 0 auto;
+    /* margin-top:5rem; */
     max-width: 500px;
     color: #fff;
     padding: 20px;
+     
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .footer-container{
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 0 auto;
-    background-color: red;
+    /* background-color:#c05429; */
     text-align: center;
+    
+    /* margin-top: 4rem;*/
+    padding-top: 4rem; 
 }
 
+.last-line{
+    margin-top: 1rem;
+}
 .skill li {
     
     padding: 10px;
@@ -228,6 +248,7 @@ a{
 
 .bar {
     background: #353b48;
+   
     display: block;
     height: 2vh;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -367,7 +388,3 @@ a{
      font-size: 0.75rem;
      padding: 0 1rem;
  }
-/*  */
-/* footer */
-/*  */
-
