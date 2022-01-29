@@ -1,7 +1,7 @@
 
 
 window.onscroll = function (e) {
-      if (window.innerHeight + window.scrollY >= document.body.offsetHeight-160) {
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight-250) {
         let bar = document.querySelectorAll(".common");
         bar.forEach((bar) => {
           let value = bar.getAttribute("data-done");
