@@ -396,7 +396,10 @@ a{
 }
 @media (max-width: 440px){
     .navbar .logo a{
-        font-size: 1.7rem;
+        font-size: 2rem;
+    }
+    .navbar .logo{
+        padding: 0 3.25rem;
     }
     .line{
         width: 350%;
@@ -409,6 +412,6 @@ a{
         padding: 0 3.25rem;
     }
     .navbar .logo a{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
     }
 }
